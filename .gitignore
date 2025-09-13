@@ -1,0 +1,47 @@
+# --- KiCad v6–v9: локальные / кэш-файлы проекта ---
+*.kicad_prl
+fp-info-cache
+
+# --- Автосейвы и бэкапы ---
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_pro-bak
+sym-lib-table-bak
+fp-lib-table-bak
+*~
+*.bak
+*.tmp
+autosave-*
+**/backup/
+**/backups/
+*-backups/
+
+# --- Симуляция (ngspice и пр.) ---
+*.raw
+*.log
+*.out
+*.cir
+
+# --- Экспорт / производство (держи их в этих папках) ---
+**/fab/**
+**/out/**
+**/plot/**
+**/manufacturing/**
+**/kibot_out/**
+plot.log
+
+# --- Плагины/скрипты ---
+ibom.html
+ibom.json
+__pycache__/
+*.pyc
+
+# --- ОС/IDE мусор ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# --- (опционально для проектов, мигрирующих с v5) ---
+# *-cache.lib
+# *-rescue.lib
